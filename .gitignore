@@ -1,0 +1,15 @@
+BUILD
+RPMS
+SRPMS
+
+# All source archives
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.lzma
+
+# All packages
+*.rpm
+
+# Subdirectories in source (uncompressed archives)
+SOURCES/*/*
