@@ -13,3 +13,23 @@ SRPMS
 
 # Subdirectories in source (uncompressed archives)
 SOURCES/*/*
+
+# Specs obtained from unmodified RPMs
+SPECS/CuraEngine.spec
+SPECS/cura-fdm-materials.spec
+SPECS/cura.spec
+SPECS/gpgme.spec
+SPECS/libarcus.spec
+SPECS/libsavitar.spec
+SPECS/python-uranium.spec
+
+# Sources obtained from unmodified RPMs
+SOURCES/0001-core-Tweak-STATUS_FAILURE-handling.patch
+SOURCES/0001-don-t-add-extra-libraries-for-linking.patch
+SOURCES/0001-fix-stupid-ax_python_devel.patch
+SOURCES/CuraEngine-rpath.patch
+SOURCES/CuraEngine-static-libstdcpp.patch
+SOURCES/gpgme-1.10.0.tar.bz2
+SOURCES/gpgme-1.3.2-largefile.patch
+SOURCES/gpgme-multilib.h
+SOURCES/libsavitar-no-pugixml.patch
